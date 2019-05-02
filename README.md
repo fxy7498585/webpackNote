@@ -11,11 +11,17 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
     mode: 'development', //设置生产模式  可以找出那些需要删除的“未使用代码(dead code)”，并在 bundle 中删除它们
+    
     entry: './src/index.js', //入口文件
+    
     // entry: {
+    
     //     app: './src/index.js',
+    
     //     print: './src/print.js'
+    
     // },
+    
     output: {
         filename: 'bundle[hash:8].js',
         // filename: '[name].bundle.js',
