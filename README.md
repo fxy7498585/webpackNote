@@ -2,10 +2,12 @@
 Webpack学习笔记
 
 
-
 const path = require('path');
+
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+
 const CleanWebpackPlugin = require('clean-webpack-plugin');
+
 
 module.exports = {
     mode: 'development', //设置生产模式  可以找出那些需要删除的“未使用代码(dead code)”，并在 bundle 中删除它们
